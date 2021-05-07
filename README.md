@@ -1,8 +1,12 @@
 # genRelevanceCurves
  This project contains the code to generate the relevance curves and statistics
- for model predictions. It gives explanations for the model predictions. The model
+ for model predictions. It gives explanations for the model predictions based on relevances
+ generated using LRP (Layerwise Relevance Propagation) method. The model
  is specifically done for AlexNet and LeNet Architecture, but can be updated for
  other models
+ 
+ The code has been tested and verified for binary classification of flight images (figher and passenger)
+ and digit classification using MNIST dataset.
 
 
  1. extract_features.py - This file is used to generate the relevances or activations
